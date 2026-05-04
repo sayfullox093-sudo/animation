@@ -1,0 +1,55 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.box{
+    width: 200px;
+    height: 200px;
+    background-color: blueviolet;
+    animation-name: maymunla;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+@keyframes maymunla{
+0%{
+   
+width: 200px;
+height: 200px;
+background-color: rgb(253, 217, 173);
+
+}
+25%{
+    transform: translateX(200px)  rotate(90deg) ;
+    width: 200px;
+height: 200px;
+background-color: rgb(92, 221, 6);
+
+
+}
+50%{
+    transform: translateX(300px)   rotate(180deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(106, 70, 233);
+
+
+}
+75%{
+    transform: translateX(400px)  rotate(270deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(223, 74, 236);
+
+
+
+}
+100%{
+    transform: translateX(500px)   rotate(360deg);
+    width: 200px;
+height: 200px;
+background-color: rgb(250, 180, 51);
+
+}
+}
